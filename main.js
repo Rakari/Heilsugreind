@@ -5,7 +5,7 @@ function main() {
     "use strict";
     var parallax = $(".image"),
         speed = 0.95;
-    
+
     window.onscroll = function () {
         [].slice.call(parallax).forEach(function (el, i) {
 
@@ -14,7 +14,7 @@ function main() {
 
             el.style.backgroundPosition = elBackgrounPos;
         });
-        
+
         if (window.scrollY >= 1) {
             $(".menu").addClass("scroll");
             $(".menu a, a:link, a:visited, li").addClass("fontScroll");
@@ -24,7 +24,7 @@ function main() {
         }
     };
 }
-    
-    
+
+
 
 $(document).ready(main);

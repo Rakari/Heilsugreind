@@ -1,4 +1,4 @@
-body {	
+body {
     background-color: rgb(250,250,245);
     text: rgb(250,250,245);
     margin: 0;
@@ -153,16 +153,16 @@ footer {
     z-index: 5;
     height: auto;
     padding: 20px 0 100px 0;
-} 
+}
 
 footer li {
 	display: block;
 	color: rgb(250,250,245);
 
-}	
+}
 
 footer #contactTitle {
-	font-weight: bold; 
+	font-weight: bold;
 	font-size: calc(3px + 1vw);
 }
 
