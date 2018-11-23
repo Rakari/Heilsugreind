@@ -1,0 +1,179 @@
+body {	
+    background-color: rgb(250,250,245);
+    text: rgb(250,250,245);
+    margin: 0;
+	padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+	font-family: "Georgia", "Times", serif;
+	margin: 0;
+	padding: 0;
+    /*border: 1px solid rgb(0,0,255);*/
+}
+
+/*------HEADER-------*/
+
+.font {
+	color: rgb(50, 50, 50);
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: rgb(100, 100, 100);
+}
+
+.menu {
+	overflow: hidden;
+	position: fixed;
+	background-color: rgba(179, 0, 0, 0);
+	height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+	z-index: 100;
+    transition: all 0.4s;
+}
+
+.menu #title {
+	font-size: 35px;
+}
+
+.menu #home {
+    margin-right: 6%;
+    margin-left: 12%;
+}
+
+.menu #about {
+    margin-right:0;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu #lan {
+    float: right;
+    width: auto;
+    padding: 20px 20px 10px 0;
+}
+
+.menu #lan img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.menu #titles {
+    float:left;
+    margin: auto 0;
+    padding: 20px 0 10px 5%;
+    width: 400px;
+    color: rgb(50, 50, 50);
+}
+
+.scroll {
+    background-color: rgba(179, 0, 0, 0.8);
+    transition: all 0.4s;
+}
+
+.fontScroll {
+    color: rgb(250,250,245);
+}
+
+/*------CONTENT-------*/
+#content {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.image {
+    overflow: auto;
+    position: static;
+    display: block;
+    background: url(http://www.gogreen.org/portals/0/images/health-topic-image.jpg) no-repeat center top;
+    background-size: cover;
+    height: 70vh;
+    margin-top: auto;
+    z-index:100;
+}
+
+#information {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: auto;
+    z-index: 4;
+}
+
+.bubbles {
+    border: 4px solid rgb(179, 0, 0) ;
+    width: 60%;
+    height:auto;
+    text-align: center;
+    margin: 50px auto;
+    padding: 4em 4em;
+    z-index: 5;
+}
+
+.bubbles h1 {
+    margin-bottom: 0.7em;
+    font-size: calc(12px + 1vw);
+}
+
+.bubbles p {
+    font-size: calc(7px + 1vw);
+}
+
+.bubbles h1, p {
+    color: rgb(50,50,50);
+}
+
+/*------FOOTER-------*/
+
+footer {
+	background-color: rgb(50,50,50);
+	height: auto;
+	position: static;
+  	width: 100%;
+	margin-bottom: 0;
+	padding: 0;
+	overflow: hidden;
+	z-index: 10;
+    text-align: center;
+}
+
+#contactInfo {
+    margin: auto auto;
+    position: relative;
+    z-index: 5;
+    height: auto;
+    padding: 20px 0 100px 0;
+} 
+
+footer li {
+	display: block;
+	color: rgb(250,250,245);
+
+}	
+
+footer #contactTitle {
+	font-weight: bold; 
+	font-size: calc(3px + 1vw);
+}
+
+footer #phone {
+	margin-top:8px;
+}
+
+footer #email {
+	margin-top:4px;
+}
+
+footer #phone, #email {
+	font-size: calc(1px + 1vw);
+}
